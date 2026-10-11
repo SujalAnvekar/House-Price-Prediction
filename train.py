@@ -29,4 +29,4 @@ r2=r2_score(y_test,y_pred)
 print(f"Average error:${mae*100000:,.0f}")
 
 joblib.dump(model,"house_model.joblib")
-joblib.dump(list(X.columns),"house_fetaures.joblib")
+joblib.dump(list(X.columns),"house_features.joblib")
